@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>About Page</title>
+	<style type="text/css">
+		h2{
+			color: green;
+		}
+		.text{
+			color: white
+		}
+	</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body ng-app="Ap" ng-controller="myAp" style="background-image: url('backg.jpg');" >
+	
+<center>	<div style="background-color: #bfbfbf; width: 500px;height: 235px">
+  <div style="margin-top: 25%">
+  	<br>
+  	<h2>name&nbsp&nbsp&nbsp :{{page.name}}</h2>   
+  	<h2>phone&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:{{page.phone}}</h2>
+  	<h2>Email Id&nbsp :{{page.email}}</h2>
+
+  	<a href="resume\index.html" style="text-decoration: none;background-color: white; font-size: 25px;"> Click to See full detials </a>
+  </div>
+</div>
+<a href="projectsrc.html"><h1 class="text">Project Details</h1></a>
+</center>
+
+</body>
+</html>

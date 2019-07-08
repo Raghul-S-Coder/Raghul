@@ -1,0 +1,34 @@
+.container {
+    text-align: center;
+}
+
+.main-container-wrapper {
+    padding-left: 40%;
+    padding-bottom: 2%;
+}
+
+.main-container {
+    background: #594F4F;
+    width: 270px;
+    height: 270px;
+}
+
+button {
+    width: 80px;
+    height: 80px;
+    background: #45ADA8;
+    float: left;
+    margin: 5px;
+    color: #547980;
+    font-size: 18px;
+}
+
+button:hover {
+    background: #9DE0AD;
+}
+
+span {
+    width: 100%;
+    color: #900;
+    font-family: "Comic Sans MS", cursive;
+}

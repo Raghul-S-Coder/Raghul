@@ -1,0 +1,26 @@
+ .dclass{
+     position: absolute;
+     top:30%;
+     left:35%;
+     background-color:#4EFBFB;
+ 	 width:340px;
+ 	 height: 269px
+          }
+          h3{
+              color: red;
+            }
+          button{
+          	width: 80px;
+          	background-color: #A0F3A5;
+            height: 40px;
+            margin-top: 10px;
+            margin-left: 1px;
+          }
+          input{
+          	width:95%;
+          	height: 27px;
+          }
+          #b0,#eb{
+          	width:40%;
+          	margin-left: 10px;
+	}
